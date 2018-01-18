@@ -11,23 +11,24 @@ int main()
 	cout<<"The perfect numbers between 1 to 500 are: "<<endl;
 
 	while(i<=500)
-
+	{
 		while(u<=500)
-
+		{
 			if(u<i)
-
-				if(i%u=)
+			{
+				if(i%u==0)
 					sum=sum+u;
+			}
+			u++;
+		}
 
-	u++
-
-		if(sum=i)
-			
+		if(sum==i)
+		{	
 			cout<<i<<" "<<endl;
-
-	i++
+		}
+		i++;
 		u=1;
 		sum=0;
 
-
+	}
 }
